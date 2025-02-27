@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пуговка - Каталог</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/layout/favicon.ico" type="image/x-icon"> 
+    <script src="js/products.js" defer></script>
+    <script src="js/navigation.js" defer></script>
+    <script src="js/catalogue.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header__wrapper wrapper">
+                <a href="index.html" class="logo">
+                    <img src="img/layout/Logo.svg" alt="">
+                </a>
+                <nav>
+                    <div id="nav-close"></div>
+                    <a href="catalogue.html">Каталог</a>
+                    <a href="shipping.html">Доставка</a>
+                    <a href="contacts.html">Контакты</a>
+                </nav>
+                <div id="nav-open"></div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="catalogue">
+            <div class="container">
+                <h2>Каталог, 0 товаров</h2>
+                <div class="catalogue__wrapper">
+                    <form action="" class="filters">
+                        <h4>Фильтры</h4>
+                        <div class="heading">Цена</div>
+                        <div class="price">
+                            <div class="line">
+                                <div id="left-circle"></div>
+                                <div id="right-circle"></div>
+                                <div class="pinkline"></div>
+                            </div>
+                            <input id="lower-price" value="0" type="number">
+                            <input id="higher-price" value="0" type="number">
+                        </div>
+                        <div class="heading">Категория</div>
+                        <div class="category">
+                            <div class="checkbox">
+                                <input type="checkbox" name="boys" id="boys">
+                                <label for="boys">Для мальчиков</label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" name="girls" id="girls">
+                                <label for="girls">Для девочек</label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" name="babies" id="babies">
+                                <label for="babies">Для малышей</label>
+                            </div>
+                        </div>
+                        <div class="heading">Сортировка</div>
+                        <div class="category">
+                            <div class="checkbox">
+                                <input type="radio" name="sort" id="price" value="price">
+                                <label for="price">По цене</label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="radio" checked name="sort" id="popular" value="popular">
+                                <label for="popular">По популярности</label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="radio" name="sort" id="name" value="name">
+                                <label for="name">По названию</label>
+                            </div>
+                        </div>
+                        <button class="button" id="search">Поиск</button>
+                    </form>
+                    <div class="catalogue__right">
+                        <div class="catalogue__items">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            ООО “Пуговка” 2018-2025 г. Уссурийск, ул Советская, д 35.
+        </div>
+    </footer>
+</body>
+
+</html>
