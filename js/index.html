@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пуговка - Главная</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/layout/favicon.ico" type="image/x-icon">
+    <script src="js/slider.js" defer></script>
+    <script src="js/navigation.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header__wrapper wrapper">
+                <a href="index.html" class="logo">
+                    <img src="img/layout/Logo.svg" alt="">
+                </a>
+                <nav>
+                    <div id="nav-close"></div>
+                    <a href="catalogue.html">Каталог</a>
+                    <a href="shipping.html">Доставка</a>
+                    <a href="contacts.html">Контакты</a>
+                </nav>
+                <div id="nav-open"></div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero index">
+            <div class="container">
+                <div class="hero__wrapper wrapper">
+                    <div class="hero__info">
+                        <h1>Добро пожаловать в <span class="pink__text">Пуговку!</span></h1>
+                        <div class="subheading">
+                            Стильная и удобная одежда для ваших малышей
+                        </div>
+                        <div class="hero__buttons">
+                            <a href="catalogue.html" class="button blue">Каталог</a>
+                            <a href="contacts.html" class="button transparent">Контакты</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="img/layout/circle.svg" alt="" class="hero__circle">
+        </section>
+        <section class="icons">
+            <div class="container">
+                <h2>Почему выбирают нас?</h2>
+                <div class="icons__wrapper">
+                    <div class="icons__item">
+                        <img src="img/icons/natural.svg" alt="">
+                        <p>Натуральные материалы</p>
+                    </div>
+                    <div class="icons__item">
+                        <img src="img/icons/ages.svg" alt="">
+                        <p>Одежда для всех возрастов</p>
+                    </div>
+                    <div class="icons__item">
+                        <img src="img/icons/shipping.svg" alt="">
+                        <p>Быстрая доставка</p>
+                    </div>
+                    <div class="icons__item">
+                        <img src="img/icons/prices.svg" alt="">
+                        <p>Доступные цены</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="categories">
+            <div class="container">
+                <h2>Категории</h2>
+                <div class="categories__wrapper">
+                    <a href="catalogue.html?bo=t&gi=f&ba=f&sort=popular&min=200&max=4000" class="categories__item">
+                        <img src="img/categories/boys.png" alt="">
+                        <p>Для мальчиков</p>
+                    </a>
+                    <a href="catalogue.html?bo=f&gi=t&ba=f&sort=popular&min=200&max=4000" class="categories__item">
+                        <img src="img/categories/girls.png" alt="">
+                        <p>Для девочек</p>
+                    </a>
+                    <a href="catalogue.html?bo=f&gi=f&ba=t&sort=popular&min=200&max=4000" class="categories__item">
+                        <img src="img/categories/babies.png" alt="">
+                        <p>Для малышей</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="reviews">
+            <h2>Отзывы</h2>
+            <div class="container">
+                <div class="reviews__wrapper slider">
+                    <div class="reviews__item slider__item">
+                        <img src="img/reviews/ekaterina.jpg" alt="" class="review__img">
+                        <div class="review__info">
+                            <h3>Екатерина</h3>
+                            <p>Искала стильную и практичную одежду для своих малышей, и Пуговка стала для меня настоящим
+                                открытием! Вещи мягкие, приятные к телу, и стираются без проблем. Спасибо за ваш труд и
+                                внимание к деталям!</p>
+                        </div>
+                    </div>
+                    <div class="reviews__item slider__item active">
+                        <img src="img/reviews/anna.jpg" alt="" class="review__img">
+                        <div class="review__info">
+                            <h3>Анна</h3>
+                            <p>Одежда из Пуговки — это просто находка! Заказала комбинезон для дочки, и он оказался не
+                                только красивым, но и очень удобным. София носит его с удовольствием, а я радуюсь
+                                качеству
+                                ткани и швов. Спасибо за заботу о наших малышах!</p>
+                        </div>
+                    </div>
+                    <div class="reviews__item slider__item">
+                        <img src="img/reviews/dmitriy.jpg" alt="" class="review__img">
+                        <div class="review__info">
+                            <h3>Дмитрий</h3>
+                            <p>Мы с женой в восторге от вашего магазина! Купили несколько вещей для сына, и все они
+                                отличного качества. Особенно порадовала быстрая доставка — получили заказ уже через два
+                                дня.
+                                Теперь только к вам!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__prev"></div>
+                <div class="slider__next"></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            ООО “Пуговка” 2018-2025 г. Уссурийск, ул Советская, д 35.
+        </div>
+    </footer>
+</body>
+
+</html>
