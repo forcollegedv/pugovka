@@ -1,7 +1,16 @@
 window.onload = setUp
-window.onresize = setUp
+let previousHeight = window.innerHeight
+window.onresize = () => {
+    if (window.innerHeight === previousHeight){
+        setUp()
+    }else{
+        previousHeight = window.innerHeight
+    }
+}
 
 function setUp() {
+    console.log("Круто");
+    
     let maxheight = 0
     document.querySelectorAll(".reviews__item").forEach(item => {
         if (item.clientHeight > maxheight) {

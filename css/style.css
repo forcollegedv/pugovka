@@ -669,7 +669,7 @@ option {
     background-color: #0D2536;
 }
 
-.icons__wrapper.cards{
+.icons__wrapper.cards {
     align-items: stretch;
 }
 
@@ -714,6 +714,51 @@ option {
     background-color: #0D2C42;
     border-radius: 20px;
 }
+
+/* feedback */
+
+.feedback {
+    background-image: url("../img/layout/zoo\ background.png");
+    background-size: 100%;
+    background-color: #0D2536;
+}
+
+.feedback h4 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.feedback__form {
+    margin: auto;
+    max-width: 100%;
+    width: 600px;
+    padding: 25px;
+    background-color: #0D2C42;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 20px;
+}
+
+.feedback .button {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+.feedback input, .feedback textarea{
+    min-height: fit-content;
+    border-radius: 10px;
+    font-size: 24px;
+    background-color: #0D2536;
+    border: none;
+    padding: 5px 10px;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+/* Adaptive design*/
 
 @media screen and (max-width:1400px) {
     .container {
